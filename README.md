@@ -1,7 +1,7 @@
 # ThirdPartyApiExamples
 An example set using the third party apis to access crew resources.
 ## Setup
-- Edit the `config.json` file with your oAuth token and IDs
+- Edit the `src/main/resources/config.json` file with your oAuth token and IDs
     ```
     {
          "oAuthToken": "<insert oAuth token here",
