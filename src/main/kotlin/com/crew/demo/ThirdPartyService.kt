@@ -59,9 +59,10 @@ class ThirdPartyService(
                 it.entity?.let { entity ->
                     println("Response: ${EntityUtils.toString(entity)}")
                 }
+                println()
             }
         } catch (e: Exception) {
-            println("Error: $e")
+            println("Error: $e\n")
         } finally {
             httpClient.close()
         }
@@ -84,7 +85,10 @@ class ThirdPartyService(
                 it.entity?.let { entity ->
                     println("Response: ${EntityUtils.toString(entity)}")
                 }
+                println()
             }
+        } catch (e: Exception) {
+            println("Error: $e\n")
         } finally {
             httpClient.close()
         }
